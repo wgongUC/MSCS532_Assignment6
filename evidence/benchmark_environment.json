@@ -1,0 +1,53 @@
+{
+  "started_utc": "2026-10-23T00:33:34.442728+00:00",
+  "finished_utc": "2026-10-23T00:33:34.497523+00:00",
+  "experiment_wall_seconds": 0.054793499999505,
+  "python": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "C:\\Python314\\python.exe",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "processor": "AMD64 Family 26 Model 68 Stepping 0, AuthenticAMD",
+  "machine": "AMD64",
+  "logical_cpus": 24,
+  "timer": "perf_counter_ns",
+  "timer_info": {
+    "implementation": "QueryPerformanceCounter()",
+    "monotonic": true,
+    "adjustable": false,
+    "resolution": 1e-07
+  },
+  "gc_enabled": true,
+  "sizes": [
+    100,
+    1000,
+    10000
+  ],
+  "distributions": [
+    "random",
+    "sorted",
+    "reverse-sorted"
+  ],
+  "seed": 532,
+  "data_seed_rule": "532 + n (used for random input only)",
+  "pivot_seeds": [
+    532,
+    533,
+    534,
+    535,
+    536
+  ],
+  "repeats": 5,
+  "measured_observations": 90,
+  "warmup_calls": 18,
+  "warmup_pivot_seed": 531,
+  "rank": "one-based lower median: (n + 1) // 2",
+  "pairing": "identical values and rank for both algorithms in each trial",
+  "order": "odd trials deterministic first; even trials randomized first",
+  "timed": "public API including input copy and partition allocations",
+  "excluded": "generation, oracle, RNG construction, warm-up, assertions, output",
+  "limitations": "one array per condition; five trials; median ranks; single machine; no memory measurements; background activity uncontrolled",
+  "source_sha256": {
+    "selection.py": "66ef51ed0ceafd77a99b29bf5ddfe78dbf4aed975f9d81024d7aef4f89742a4b",
+    "structures.py": "34d1e1b4ac104e3e9a564012cc7ce0f5377e25ea237b52c811de1f681f60c34f",
+    "benchmark.py": "0b4c326c3a966ee7f138bd3f34f09aa1dc99188c87fcdf7db801762dedf768b9"
+  }
+}

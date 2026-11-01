@@ -1,0 +1,45 @@
+{
+  "description": "Record documentation-only source changes while preserving the recorded experiment and original source hashes.",
+  "historical_run_utc": "2026-10-23T00:33:34.442728+00:00",
+  "normalization": "Parse each Python file, remove leading module/function/class string docstrings recursively, then SHA-256 the UTF-8 ast.dump with include_attributes=False.",
+  "files": {
+    "selection.py": {
+      "source_before_documentation_sha256": "66ef51ed0ceafd77a99b29bf5ddfe78dbf4aed975f9d81024d7aef4f89742a4b",
+      "submission_sha256": "ccba77f7c6585b5126cd47a019f591d930ceba2b3f389820f85daaf8517b5de4",
+      "executable_ast_sha256": "176a7291cc8b2b1f03d23a62c9c2277f46b07870cc70a380cef43bc1adc0130b",
+      "executable_ast_unchanged": true,
+      "changes": "Comments, docstrings, and blank-line layout only",
+      "historical_sha256": "66ef51ed0ceafd77a99b29bf5ddfe78dbf4aed975f9d81024d7aef4f89742a4b"
+    },
+    "structures.py": {
+      "source_before_documentation_sha256": "34d1e1b4ac104e3e9a564012cc7ce0f5377e25ea237b52c811de1f681f60c34f",
+      "submission_sha256": "b35ec7d97fe79d61a7b8a5bde1efb857c0803c51926c3839236961d7228d5d61",
+      "executable_ast_sha256": "1ec344193ca5a2f56714140b31bce98e88fde4e222febcaeda733e11de37f04a",
+      "executable_ast_unchanged": true,
+      "changes": "Comments, docstrings, and blank-line layout only",
+      "historical_sha256": "34d1e1b4ac104e3e9a564012cc7ce0f5377e25ea237b52c811de1f681f60c34f"
+    },
+    "benchmark.py": {
+      "source_before_documentation_sha256": "5b03d5446a10b95b54da428d71683ff6934912f506a51d53d71f292de891860f",
+      "submission_sha256": "7909cb941dc33e8207647939af86035812bb1b3ce1a1bc6cc66c2a06b4b37ef2",
+      "executable_ast_sha256": "6cac1d60475d465ce10e056dac5de4543e20de97dba011d35559eac475ee86bc",
+      "executable_ast_unchanged": true,
+      "changes": "Comments, docstrings, and blank-line layout only",
+      "historical_sha256": "0b4c326c3a966ee7f138bd3f34f09aa1dc99188c87fcdf7db801762dedf768b9"
+    },
+    "test_assignment.py": {
+      "source_before_documentation_sha256": "0cc3fbb53f6b6efcfff5d5237efe4b6b131ac3d118b4bf9ca1d47d4dfc7d6f65",
+      "submission_sha256": "a05f1ba3a046ba85bf768d38f5a8332face0cfee872a67e7b62ac0099d54673b",
+      "executable_ast_sha256": "a3a311e07afd383dc37fb4c0c639202d5395b764057ea13f4082b9cf558c8f27",
+      "executable_ast_unchanged": true,
+      "changes": "Comments, docstrings, and blank-line layout only"
+    },
+    "verify_evidence.py": {
+      "submission_sha256": "3f2562b67cdb4a5fe5e063fd2e54d8c47ea5319842aec0bca472261a5e7473ac",
+      "executable_ast_sha256": "e250d9e1fbeffe535b8d69704a68bbd7e6329e9ab3dee9b40196ade201b1fe7b",
+      "role": "Added portable verification tool; not part of the historical benchmark execution"
+    }
+  },
+  "measurement_files_byte_identical": true,
+  "note": "source_sha256 in benchmark_environment.json identifies the sources used for the recorded measurements. Those hashes and measured values have not been rewritten. The original test and benchmark logs are unchanged."
+}

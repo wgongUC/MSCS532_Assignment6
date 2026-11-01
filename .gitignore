@@ -1,0 +1,43 @@
+# Duplicate console logs; measurement data remains included
+/evidence/benchmark_run.txt
+/evidence/tests.txt
+
+# The report deliverable is DOCX
+*.[Pp][Dd][Ff]
+~$*
+
+# Python caches and local test outputs
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Local environments and private configuration
+.venv/
+venv/
+env/
+.env
+.env.local
+
+# Temporary document renders
+/rendered_pages/
+/report_pages/
+/review_previews/
+/lo-assignment6-profile/
+/Assignment6_Report_*/
+/page-*.png
+
+# Local backups and temporary files
+/backups/
+/backup/
+/MSCS532_Assignment6_PreReplacement_*/
+*.bak
+*.orig
+*.tmp
+*.swp
+*.swo
+*~

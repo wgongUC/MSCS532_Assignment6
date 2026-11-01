@@ -1,0 +1,10 @@
+n,distribution,repetitions_per_algorithm,deterministic_median_ms,deterministic_min_ms,deterministic_max_ms,randomized_median_ms,randomized_min_ms,randomized_max_ms
+100,random,5,0.018,0.0159,0.0339,0.011,0.0083,0.016
+100,sorted,5,0.0146,0.0145,0.0155,0.0075,0.0058,0.0135
+100,reverse-sorted,5,0.0162,0.0161,0.0165,0.0065,0.0055,0.0134
+1000,random,5,0.2223,0.2132,0.3657,0.1422,0.0903,0.2921
+1000,sorted,5,0.1513,0.15,0.1678,0.0659,0.0495,0.1095
+1000,reverse-sorted,5,0.1564,0.1551,0.1587,0.0787,0.0458,0.111
+10000,random,5,1.9821,1.9041,2.4344,0.912,0.6913,1.5465
+10000,sorted,5,1.4784,1.4704,1.4853,0.6349,0.4101,0.7951
+10000,reverse-sorted,5,1.505,1.5009,1.5082,0.636,0.4446,0.8192
